@@ -1,0 +1,10 @@
+version: "2"
+
+services: 
+  api:
+    build: .
+    command: npm start
+    ports:
+      - "4000:3000"
+    volumes: 
+      - .:/app
