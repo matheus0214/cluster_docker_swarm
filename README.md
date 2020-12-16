@@ -4,8 +4,8 @@
 
 #### Build docker image
 
-1 - go to directory **/aplication**
-2 - docker build -t **name image** . *(dot in final is required)*
+1 - go to directory **/aplication**<br />
+2 - docker build -t **name image** . *(dot in final is required)*<br />
 
 #### Create cluster
 1 - docker swarm init<br />
